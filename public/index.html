@@ -16,12 +16,17 @@
       crossorigin="anonymous"
     />
 
+    <!-- custome css -->
+    <link rel="stylesheet" href="../dist/css/main.css" />
     <title>Multi-tool | Home</title>
   </head>
   <body>
+    <div class="row container text-center d-flex justify-content-center p-3">
+      <img src="#" alt="logo" class="image-thumb" />
+      <span>Mulit tools inc</span>
+    </div>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,65 +39,178 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+        <ul
+          class="collapse navbar-collapse navbar-nav d-flex justify-content-around"
+        >
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Generators
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Water pumps
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Power Tools
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Garage/Workshop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
       </nav>
     </header>
 
-    <main class="container">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad tempora
-      temporibus, quia nulla quas error, dolorum suscipit voluptates facilis
-      maxime rerum enim commodi ratione sit, quod rem aperiam hic beatae!
+    <main role="main">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide w-100vh vh-100"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../dist/images/diesel_gen01.jpg"
+              class="d-block w-100 w-100vh"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../dist/images/power_tools.jpg"
+              class="d-block w-100 w-100vh"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../dist/images/water_pump01.jpg"
+              class="d-block w-100 w-100vh"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="../dist/images/diesel_gen03.jpg"
+                  alt=""
+                  class="d-block w-100 img-h-300"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet. Vitae amet distinctio atque
+                    aliquam facilis voluptates similique!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="../dist/images/submersibles.jpg"
+                  alt=""
+                  class="d-block w-100 img-h-300"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet. Vitae amet distinctio atque
+                    aliquam facilis voluptates similique!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="../dist/images/water_pump02.jpg"
+                  alt=""
+                  class="d-block w-100 img-h-300"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet. Vitae amet distinctio atque
+                    aliquam facilis voluptates similique!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+        reiciendis amet facilis nostrum hic laudantium? Laborum quaerat
+        perferendis praesentium accusantium, sit eos consectetur. Eligendi
+        maiores nulla id pariatur unde odio.
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
